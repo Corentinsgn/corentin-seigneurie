@@ -1,0 +1,35 @@
+.contact {
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulaire{
+    margin-bottom: 15px;
+}
+
+.formulaire input[type="text"]{
+    width: 300px;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+}
+
+.formulaire textarea{
+    width: 300px;
+    padding: 12px 20px;
+    height: 80px;
+    resize: none;
+    border: 1px solid #ccc;
+}
+
+h3 {
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
